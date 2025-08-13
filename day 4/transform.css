@@ -1,0 +1,80 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h2 {
+      margin-top: 50px;
+      color: #333;
+    }
+
+    .box {
+      width: 120px;
+      height: 120px;
+      margin: 20px auto;
+      background-color: #4caf50;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+      transition: 0.6s ease;
+    }
+/* 2d transform on hoverL */
+.box2d{
+    background-color: blue;
+
+}
+.box2d:hover{
+    transform: rotate(180deg) scale(1.1);
+}
+.box2d1:hover{
+    transform: skewY(20deg);
+}
+.box2d2:hover{
+    transform: scaleX(1.5);
+}
+.box3d{
+    background-color: #e91e63;
+    transform-style: preserve-3d;
+    transform: rotateX(0deg);
+    transition: transform0.8s;
+}
+.box3d:hover{
+    transform: rotateX(150deg);
+
+}
+.box3d1:hover{
+    transform: skewY(60deg);
+}
+ /* Trasition */
+ .box-transition{
+    background-color: #ff9800;
+
+ }
+ .box-transition:hove{
+    background-color: #e91e63;
+    transform: scale(1.2);
+    
+ }
+
+ .di{
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate;
+}
+
+@keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  25%  {background: yellow; left: 200px; top: 0px;}
+  50%  {background: blue; left: 200px; top: 200px;}
+  75%  {background: green; left: 0px; top: 200px;}
+  100% {background: red; left: 0px; top: 0px;}
+}
+ 

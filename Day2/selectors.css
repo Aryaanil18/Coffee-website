@@ -1,0 +1,39 @@
+/* Universal selector */
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: bisque;
+}
+ /* Id selector */
+#head{
+    color: rgb( rgb(10, 10, 87));
+}
+/* Class Selector */
+.cls{
+    text-align: center;
+}
+h1,h2{
+    text-decoration: underline;
+}
+/* psuedo clss */
+button{
+    background-color: black;
+    color: antiquewhite;
+}
+button:hover{
+    background-color: cornsilk;
+    color: black;
+}
+div{
+    height: 400px;
+    width: 300px ;
+    background-color: rgb rgb(184, 85, 251);
+    border: none;
+}
+div:hover{
+    background-color: rgb rgb(184, 171, 20);
+    border: 2px solid red;
+}
+/* psuedo element */
+div::

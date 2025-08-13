@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+  background-color:white;
+  
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(23, 1, 1);
+    color: rgb(203, 162, 142);
+    position: fixed;
+}
+header h1{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+#banner{
+    width: 100%;
+    height:450px;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url(https://cdn.pixabay.com/photo/2012/02/23/09/16/coffee-15994_1280.jpg);
+}
+.row{
+  width: 80%;
+  height: 400px;  
+  background-color: rgba(39, 4, 4);
+  border-radius: 30px;
+  margin:80px 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.col{
+    
+    width: 250px;
+    height: 350px;
+    background-color:white;
+    margin:20px;
+    border-radius: 30px;
+}
+    
+.col h2{color: rgb(36, 1, 1);
+        text-align: center;
+    }
+
+.col button{
+    color: white;
+    background-color: rgb(61, 11, 11);
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 20px 85px;
+    cursor: pointer;
+
+}
+.col img{
+    background-color:rgb(203, 162, 142);
+    width: 80%;
+    height: 150px;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 15px;
+}
+.col button:hover{
+    background-color: bisque;
+    color: rgb(42,20,20);
+}
+#background{
+    width: 100%;
+    background-color:white;
+    background-image: url(https://cdn.pixabay.com/photo/2013/02/21/19/06/coffee-beans-84516_1280.jpg);
+    
+}
+
+.horeca-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap:40px;
+  padding: 80px 160px;
+  flex-wrap: wrap;
+  height: 450px;
+  background-color:white;
+  background-image: url(https://cdn.pixabay.com/photo/2013/02/21/19/06/coffee-beans-84516_1280.jpg);
+}
+
+.enterprise-box {
+  background-color: #311005;
+  color: #fff3d6;
+  gap: 40px;
+  margin-top: 10px;
+  padding: 40px 30px;
+  border-radius: 30px;
+  text-align: center;
+  max-width: 300px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.enterprise-box h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.shop-button {
+  background-color: #e0ac4e;
+  color: #2a0b00;
+  border: none;
+  padding: 10px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-button:hover {
+  background-color: white;
+}
+
+.horeca-text {
+  max-width: 600px;
+  color: #2c1006;
+  background-color: rgba(252, 242, 215, 0.95);
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.horeca-text h1 {
+  font-family: 'Courier Prime', monospace;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px #e0ac4e;
+}
+
+.horeca-text p {
+  font-size: 1.2rem;
+  display: contents;
+  line-height: 1.8;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.row1{
+  width: 100%;
+  height: 300px;
+  background-color: rgb(89, 12, 12);
+  display: flex
+}
+.row1 img{
+  padding: 10px 20px;
+  margin: 20px 130px;
+}
+.col1{
+  width: 200px;
+  height: 180px;
+  padding: 60px 30px;
+  background-color: rgb(89, 12, 12);
+
+}
+.col1 h1{
+  font-family: "Cinzel Decorative", serif;
+  color: white;
+  font-size: xx-large;
+  padding: 10px 20px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  }
+.col1 h2{
+  font-family: "Cinzel Decorative", serif;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: x-large;
+  }
+  .col2{
+    width: 500px;
+  height: 180px;
+  padding: 60px 30px;
+  background-color: rgb(89, 12, 12);
+  justify-content: right;
+  }
+.col2 p{
+  font-style: italic;
+  color: bisque;
+  text-align:left;
+  padding: 10Px;
+}
+.col2 button{
+  background-color: #c89b47;
+  color:rgb(0, 0, 0);
+  width: 100px;
+  height: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  align-items: flex-start;
+  cursor: pointer;
+}
+.col2 button:hover{
+  background-color: antiquewhite;
+  color: rgb(0, 0, 0);
+}
+.row2{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgba(39, 4, 4) ;
+  
+}
+.col3{
+ width: 250px;
+    height: 400px;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 30px
+    
+}
+#head1{
+  color: wheat;
+  padding: 5px;
+  margin: 10px;
+  font-size: large;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.col3 i{
+  background-color:#fff3d6;
+  align-items:center;
+}
+.col3 i:hover{
+  background-color: brown;
+  color: beige;
+  cursor: pointer;
+}
+.col3 h2{
+  color: wheat;
+  padding: 5px;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+  font-weight: 500;
+}
+.col3 p{
+  color: wheat;
+  text-align: left;
+  
+}
+.col4 h2{
+  color: wheat;
+  padding: 5px;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: medium;
+  font-weight: 500;
+}
+.col4 p{
+  color: wheat;
+  text-align: left;
+  
+}
+.col4{
+ width: 320px;
+    height: 400px;
+    background-color:;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+.col4 input{
+  padding: 8px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  align-items: left;
+  color: white;
+}
+  .space{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    background-image: url(https://media.istockphoto.com/id/969328120/photo/closeup-coffee-beans-copy-space-white-back-ground.jpg?s=2048x2048&w=is&k=20&c=fUq1W7Y7kFA99Ysrhxc0g-gVRsldFmqD2vwj-FNmJ8k=);
+  } 
